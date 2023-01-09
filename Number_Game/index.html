@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Can You Guess Me ?</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="div-header">
+            <h1 class="header-h1">
+                Welcome Back To Number Guessing Game...
+                <p> Guess The Right Number and Your Money Increases </p>
+            </h1>
+        </div>
+        <div class="wrapper">
+           <div class="inner-wrapper">
+            <h1 id="number">
+                0
+            </h1>
+           </div>
+           <input type="number" max="100" min="1" name="number" placeholder="  Number" id="input-number">
+           <input id="input-generator" type="button" value="Generate Number">
+           <p style=" margin-top: 30px; color: green; font-family: monospace;" id="result"></p>
+           <p style=" margin-top: 20px; font-size: 30px; color: green; font-family: monospace;" id="point">Amount: $100</p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>    
+</body>
+</html>
+

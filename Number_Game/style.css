@@ -1,0 +1,96 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient( green 2px, transparent 0);
+    background-size: 30px 30px;
+    background-color: black;
+    color: white;
+    
+}
+
+.header-h1{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+.header-h1 p { 
+    font-size: medium;
+}
+.div-header{ 
+    width: 700px;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.container { 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{ 
+    width: 500px;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border: 1px dashed green;
+    border-radius: 10px;
+}
+
+.inner-wrapper h1 { 
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 60px;
+    color: #008000;
+}
+input{ 
+    margin-top: 20px;
+    width: 20rem;
+    height: 8vh;
+}
+input[type="button"]{ 
+    color: #008000;
+    border: 2px dotted #008000;
+    background-color: #0000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input[type="button"]:hover{ 
+    color:  rgba(255, 255, 255, 0.726);
+    background-color: #008000a9;
+    border: 2px dotted rgba(255, 255, 255, 0.726);
+    border-radius: 15px;
+    
+}
+
+input[type="number"]{
+    width: 100px;
+    text-align: center;
+    color: #008000;
+    background-color: #0000;
+    border: 1px dotted #008000;
+}
+input[type="number"]:focus{
+    outline: transparent;
+    border-radius: 10px;
+    border: 1px dotted #fff;
+    color: #fff;
+    background-color: #008000a9;
+}
+input::placeholder{
+    color: #008000;
+    text-align: center;
+
+}
